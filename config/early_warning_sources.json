@@ -1,0 +1,29 @@
+{
+  "credit_to_gdp_ratio": {
+    "source": "world_bank",
+    "indicator": "TODO_SET_WB_INDICATOR"
+  },
+  "housing_price_growth": {
+    "source": "fred",
+    "series_id": "TODO_SET_FRED_SERIES"
+  },
+  "mortgage_default_rate": {
+    "source": "loans",
+    "column": "delinquency"
+  },
+  "bank_leverage_ratio": {
+    "source": "world_bank",
+    "indicator": "TODO_SET_WB_INDICATOR"
+  },
+  "interest_rate_spread": {
+    "source": "loans",
+    "columns": [
+      "mortgage_rate",
+      "treasury_rate"
+    ]
+  },
+  "financial_stress_index": {
+    "source": "fred",
+    "series_id": "TODO_SET_FRED_SERIES"
+  }
+}

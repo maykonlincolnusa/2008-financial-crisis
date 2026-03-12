@@ -1,0 +1,15 @@
+version: "3.9"
+services:
+  app:
+    build:
+      context: ..
+      dockerfile: infra/Dockerfile
+    volumes:
+      - ..:/app
+    environment:
+      - FREDDIE_USER
+      - FREDDIE_PASS
+      - FANNIE_USER
+      - FANNIE_PASS
+      - FRED_API_KEY
+    command: bash
